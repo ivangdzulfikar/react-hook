@@ -12,7 +12,7 @@ const UseEffect = ({ title }) => {
 
   return (
     <>
-      <h2 style={{ fontSize: "4rem", textDecoration: "underline" }}>{title}</h2>
+      <h2>{title}</h2>
       <div>
         <button onClick={() => setResourceType("posts")}>Posts</button>
         <button onClick={() => setResourceType("users")}>Users</button>

@@ -15,7 +15,7 @@ const UseState = ({ title }) => {
 
   return (
     <>
-      <h2 style={{ fontSize: "4rem", textDecoration: "underline" }}>{title}</h2>
+      <h2>{title}</h2>
       <div>
         <button style={btn} onClick={() => setCount(count + 1)}>
           +
