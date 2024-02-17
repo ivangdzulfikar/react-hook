@@ -1,12 +1,12 @@
-import { UseMemo } from "./components/UseMemo";
-import './app.css'
+import { UseRef } from "./components/UseRef";
+import "./app.css";
 
 function App() {
   return (
     <div style={{ textAlign: "center" }}>
       <h1 style={{ fontSize: "4rem", marginBottom: "" }}>React Hook</h1>
 
-      <UseMemo title="useMemo" />
+      <UseRef title="useReff" />
     </div>
   );
 }
